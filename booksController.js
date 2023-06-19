@@ -4,9 +4,9 @@ let booksList = []
 let idno = 0
 
 exports.index = function (req, res) {
-    res.send({
-        key: "item"
-    })
+    res.send(
+        booksList
+    )
 }
 
 exports.create = (req, res, next) => {
