@@ -1,7 +1,6 @@
 const createError = require("http-errors")
 
-let booksList = []
-let idno = 0
+/*let booksList = []*/
 
 exports.index = function (req, res) {
     res.send(
