@@ -86,7 +86,7 @@ res.send({result: true}) */
 }
 
 // Mongoose testing //
-const mongoose = require("mongoose");
+/* const mongoose = require("mongoose");
 
 main().catch(err => console.log(err));
 
@@ -119,3 +119,4 @@ async function main() {
 
     await Books.find({ name: /^Halo/ });
 }
+ */
